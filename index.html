@@ -17,6 +17,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
             min-height: 100vh;
             font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
         }
@@ -32,23 +33,40 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
 
             position: relative;
         }
 
         h1{
-            color: white;
             font-size: 3rem;
+        }
+
+        h1,h2,h3{
+            color: white;
             font-family: "Righteous", sans-serif;
             font-weight: 400;
             text-shadow: 0 0 100px #313131;
         }
+
+        h2 span{
+            color: orange;
+        }
+
+        h3 span{
+            color: rgb(239, 179, 26);
+        }
+
+
 
     </style>
 </head>
 <body>
     <header>
         <h1>Insider Code</h1>
+        <h2>Olá eu me chamo <span>Maicon Souza</span></h2>
+        <h3>Sou <span> Desenvolvedor Front-End</span></h3>
     </header>
+
 </body>
 </html>
